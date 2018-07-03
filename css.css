@@ -127,8 +127,41 @@ hr {
 	display: inline-block;
 }
 
-body {
+.obody {
 	padding-top: 100px;
+}
+
+.roman {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.topped {
+	padding-top: 3%;
+}
+
+.shr {
+	width: 100%;
+	padding-top: 2%;
+	background-color: black;
+	border: 0 none;
+	color: black;
+	height: 1px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 25%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.display {
+	display: inline-block;
 }
 
 @media screen and (max-width: 770px) {
