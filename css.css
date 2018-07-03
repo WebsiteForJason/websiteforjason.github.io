@@ -127,12 +127,16 @@ hr {
 	display: inline-block;
 }
 
+body {
+	padding-top: 100px;
+}
 
 @media screen and (max-width: 770px) {
    .nav {
        display: none !important;
    }
 }
+
 
 @media screen and (max-width: 770px) {
    .navbar-fixed-top {
