@@ -99,7 +99,7 @@ hr {
 }
 
 .bottom {
-	padding-top: auto;%;
+	padding-top: auto;
 	background-color: black;
 	color: white;
 }
@@ -139,6 +139,10 @@ hr {
 	padding-top: 3%;
 }
 
+.padlower {
+	padding-bottom: 3%;
+}
+
 .shr {
 	width: 100%;
 	padding-top: 2%;
@@ -164,15 +168,30 @@ hr {
 	display: inline-block;
 }
 
+img.imglarger {
+	height: 200%;
+	width: 200%;
+
+}
+
+img.rimg {
+	height: 125px;
+	width: 125px;
+}
+
+.thumbnail {
+	background: gray;
+}
+
 @media screen and (max-width: 770px) {
    .nav {
-       display: none !important;
+	   display: flex;
    }
 }
 
 
 @media screen and (max-width: 770px) {
    .navbar-fixed-top {
-       display: none !important;
+	   display: flex;
    }
 }
